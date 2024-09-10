@@ -9,8 +9,8 @@ _qcom_wifi_makepkg() {
     _makepkg_git_clone "https://github.com/linux-surface/aarch64-packages" "ls"
 
     _makepkg_build_install "${_BUILDDIR}/andersson/qmic-pkg"
-    _makepkg_meson_build_install "${_BUILDDIR}/andersson/qrtr-pkg"
-    _makepkg_meson_build_install "${_BUILDDIR}/andersson/tqftpserver-pkg"
+    _makepkg_build_install "${_BUILDDIR}/andersson/qrtr-pkg"
+    _makepkg_build_install "${_BUILDDIR}/andersson/tqftpserver-pkg"
     _makepkg_build_install "${_BUILDDIR}/andersson/pd-mapper-pkg"
     _makepkg_build_install "${_BUILDDIR}/ls/rmtfs-dummy"
 
