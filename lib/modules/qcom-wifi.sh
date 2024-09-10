@@ -5,7 +5,7 @@ _qcom_wifi_makepkg() {
 
     cd "${_BUILDDIR}" || exit 1
 
-    _makepkg_git_clone "https://github.com/andersson/arch-packages" "andersson"
+    _makepkg_git_clone "https://github.com/bigsaltyfishes/arch-packages" "andersson"
     _makepkg_git_clone "https://github.com/linux-surface/aarch64-packages" "ls"
 
     _makepkg_build_install "${_BUILDDIR}/andersson/qmic-pkg"
