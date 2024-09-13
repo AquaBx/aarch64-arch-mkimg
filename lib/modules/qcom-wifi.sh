@@ -12,6 +12,7 @@ _qcom_wifi_makepkg() {
     _makepkg_build_install "${_BUILDDIR}/andersson/qrtr-pkg"
     _makepkg_build_install "${_BUILDDIR}/andersson/tqftpserver-pkg"
     _makepkg_build_install "${_BUILDDIR}/andersson/pd-mapper-pkg"
+    _makepkg_build_install "${_BUILDDIR}/ls/rmtfs-dummy"
     
     cd /
 }
