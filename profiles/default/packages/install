@@ -10,3 +10,4 @@ neovim
 dosfstools
 arch-install-scripts
 util-linux
+meson
